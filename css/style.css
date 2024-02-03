@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Header */
+header {
+    width: 100%;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header hr {
+    color: #aaa;
+    position: fixed;
+}
+
+.second-a {
+    border-bottom: 1px solid #aaa;
+}
+
+.div-container {
+    display: flex;
+    padding: 3px;
+    position: fixed;
+    margin: 15px;
+}
+
+.i-container {
+    right: 30px;
+    position: fixed;
+}
+
+i {
+    position: fixed;
+    right: 10px;
+}
+
+.i-container input, .i-container button {
+    padding: 2px;
+}
+
+label {
+    color: #fff;
+}
+
+/* Header */
+
+/* Barra lateral */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: #111;
+    padding-top: 20px;
+    border-right: 1px solid #aaa;
+    padding: 5px;
+    margin-top: 72px;
+}
+
+
+.sidebar-a{
+    border-top: 1px solid #aaa;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #aaa;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidebarCart {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: #111;
+    padding-top: 10px;
+    padding: 5px;
+    right: 0px;
+    margin-top: 72px;
+}
+
+#sidebarCart p, #sidebarConfig p, #sidebarCart h2, #sidebarConfig h2 {
+    color: #fff;
+    padding: 5px;
+}
+
+#sidebarCart button, #sidebarConfig button {
+    padding: 2px;
+    margin: 3px;
+}
+
+#sidebarConfig {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: #111;
+    padding-top: 10px;
+    padding: 5px;
+    right: 0px;
+    margin-top: 72px;
+}
+
+/* Barra lateral */
+
+/* Main */
+
+#productsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    border-right: 1px solid #aaa;
+}
+
+
+main section {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.card{
+    width: 263px;
+    height: 360px;
+    border: 1px solid #fff;
+    border-radius: 1.25rem 0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.card-img{
+    width: 100%;
+    height: 73%;
+    object-fit: contain;
+}
+
+.card button {
+    border-radius: 0 .5rem;
+    border-style: none;
+    padding: 3px;
+}
+
+.div-text{
+    padding: 5px;
+}
+
+.content {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 1px;
+}
+
+.content p, .content h3 , .content h2{
+    color: #fff;
+    margin: 1px;
+}
+
+.fa-magnifying-glass{
+    color: #fff !important;
+}
+
+hr {
+    position: fixed;
+    top: 69px;
+    width: 100%;
+}
+
+.foto1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    width: 200px;
+    height: 200px;
+    border: 1px dashed #fff;
+}
+
+.foto2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #fff;
+}
+
+.foto3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #fff;
+}
+
+.centerH1 {
+    color: #fff;
+    text-align: center;
+}
+
+#img-under-construction {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.div-container-grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    padding: 1.875rem;
+}
+
+#btnAgregarAlCarrito {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.registerInput {
+    padding: 20px;
+    border: 1px solid #777;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.generalLabel {
+    font-size: 1.5rem;
+    color: #000;
+}    
+
+.registerInput:focus {
+    border: 1px solid #3ad;
+    font-size: 1.5rem;
+    transform: scale(1.05);
+    transition: all .5s;
+}
+
+.h2-dolar {
+    margin-top: 75px !important;
+    font-size: 2rem;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.dolar-container, .other-container{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #aaa !important;
+}
+
+.h2-euro{
+    font-size: 2rem;
+    padding: 5px
+}
+
+.div-p-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#myName {
+    font-size: 1.5rem;
+}
+
